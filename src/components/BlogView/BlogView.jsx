@@ -6,6 +6,7 @@ import styles from "./BlogView.module.css";
 
 const CATEGORIES = [
   "All",
+  "Case Study",
   "Design & Experience",
   "Business",
   "Product",
