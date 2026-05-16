@@ -1,0 +1,118 @@
+.toc {
+  position: sticky;
+  top: 100px;
+  width: 100%;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  padding-right: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--color-westar);
+  padding-bottom: 0.5rem;
+}
+
+.title {
+  font-family: var(--font-inter);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-dovegray);
+}
+
+.collapseButton {
+  background: none;
+  border: none;
+  color: var(--color-dovegray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.collapseButton:hover {
+  background-color: var(--color-springwood);
+  color: var(--color-text-primary);
+}
+
+.listContainer {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+
+.list {
+  list-style: none;
+  border-left: 2px solid var(--color-westar);
+  margin-left: 4px;
+}
+
+.listItem {
+  margin-bottom: 0.75rem;
+}
+
+.listItem:last-child {
+  margin-bottom: 0;
+}
+
+.link {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--color-dovegray);
+  padding-left: 1rem;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: var(--color-text-primary);
+}
+
+/* Active State with indicator line */
+.link.active {
+  color: var(--color-text-primary);
+  font-weight: 500;
+}
+
+.link.active::before {
+  content: '';
+  position: absolute;
+  left: -2px; /* Pull back over the border-left */
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--color-text-primary);
+}
+
+/* Collapsed state */
+.collapsed .listContainer {
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .toc {
+    position: static;
+    max-height: none;
+    margin-bottom: 2rem;
+    padding-right: 0;
+    background-color: var(--color-springwood);
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .header {
+    margin-bottom: 1rem;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
