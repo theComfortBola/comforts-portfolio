@@ -12,7 +12,6 @@ export default function Footer() {
         <div className={styles.links}>
           <div className={styles.navGroup}>
             <Link href="/blog" className={styles.link}>Blog</Link>
-            <Link href="/about" className={styles.link}>About</Link>
             <Link href="/services" className={styles.link}>Services</Link>
           </div>
           
