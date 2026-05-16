@@ -1,0 +1,602 @@
+{
+    "style": {
+        "color": {
+            "Black": {
+                "type": "SOLID",
+                "value": "#000000"
+            },
+            "Chablis": {
+                "type": "SOLID",
+                "value": "#f0fff4"
+            },
+            "DoveGray": {
+                "type": "SOLID",
+                "value": "#666666"
+            },
+            "Emperor": {
+                "type": "SOLID",
+                "value": "#555555"
+            },
+            "FunBlue": {
+                "type": "SOLID",
+                "value": "#1a4db5"
+            },
+            "Gray": {
+                "type": "SOLID",
+                "value": "#888888"
+            },
+            "Hintof Green": {
+                "type": "SOLID",
+                "value": "#f0fff4"
+            },
+            "Jewel": {
+                "type": "SOLID",
+                "value": "#176a32"
+            },
+            "Magnolia": {
+                "type": "SOLID",
+                "value": "#f0fff4"
+            },
+            "MineShaft": {
+                "type": "SOLID",
+                "value": "#333333"
+            },
+            "PurpleHeart": {
+                "type": "SOLID",
+                "value": "#6b35b5"
+            },
+            "RoseWhite": {
+                "type": "SOLID",
+                "value": "#fff5f5"
+            },
+            "Roseof Sharon": {
+                "type": "SOLID",
+                "value": "#b85c00"
+            },
+            "SatinLinen": {
+                "type": "SOLID",
+                "value": "#e8e4dc"
+            },
+            "Serenade": {
+                "type": "SOLID",
+                "value": "#e8f0ff"
+            },
+            "Silver": {
+                "type": "SOLID",
+                "value": "#cccccc"
+            },
+            "SilverChalice": {
+                "type": "SOLID",
+                "value": "#aaaaaa"
+            },
+            "SpringWood": {
+                "type": "SOLID",
+                "value": "#f5f2ec"
+            },
+            "Westar": {
+                "type": "SOLID",
+                "value": "#e0ddd6"
+            },
+            "Zircon": {
+                "type": "SOLID",
+                "value": "#f0fff4"
+            },
+            "Zumthor": {
+                "type": "SOLID",
+                "value": "#e8f0ff"
+            },
+            "preferredstroke": {
+                "type": "GRADIENT_LINEAR",
+                "stop-1": {
+                    "value": "#f8f8f8"
+                },
+                "stop-2": {
+                    "value": "#fbeeee"
+                },
+                "transform-1": {
+                    "stop-1": {
+                        "value": "0.00000"
+                    },
+                    "stop-2": {
+                        "value": "0.00000"
+                    },
+                    "stop-3": {
+                        "value": "0.00000"
+                    }
+                },
+                "transform-2": {
+                    "stop-1": {
+                        "value": "1.00000"
+                    },
+                    "stop-2": {
+                        "value": "1.00000"
+                    },
+                    "stop-3": {
+                        "value": "1.00000"
+                    }
+                }
+            },
+            "navcolor": {
+                "type": "SOLID",
+                "value": "#f5f2ec"
+            },
+            "stitch.withgoogle.com": {
+                "Black0%": {
+                    "type": "SOLID",
+                    "value": "#000000"
+                },
+                "Black10%": {
+                    "type": "SOLID",
+                    "value": "#000000"
+                },
+                "Bunker": {
+                    "type": "SOLID",
+                    "value": "#141a1e"
+                },
+                "Cinder": {
+                    "type": "SOLID",
+                    "value": "#14141e"
+                },
+                "CocoaBrown": {
+                    "type": "SOLID",
+                    "value": "#1e1414"
+                },
+                "CodGray": {
+                    "type": "SOLID",
+                    "value": "#0a0a0a"
+                },
+                "CodGray 50%": {
+                    "type": "SOLID",
+                    "value": "#1c1c1c"
+                },
+                "Flint": {
+                    "type": "SOLID",
+                    "value": "#6b6560"
+                },
+                "Iron50%": {
+                    "type": "SOLID",
+                    "value": "#dadce0"
+                },
+                "Merlin": {
+                    "type": "SOLID",
+                    "value": "#4a4540"
+                },
+                "MineShaft": {
+                    "type": "SOLID",
+                    "value": "#2a2a2a"
+                },
+                "PaleSky": {
+                    "type": "SOLID",
+                    "value": "#6b7280"
+                },
+                "Pampas": {
+                    "type": "SOLID",
+                    "value": "#f0ede6"
+                },
+                "Pampas12%": {
+                    "type": "SOLID",
+                    "value": "#f0ede6"
+                },
+                "Porcelain": {
+                    "type": "SOLID",
+                    "value": "#f1f3f4"
+                },
+                "RacingGreen": {
+                    "type": "SOLID",
+                    "value": "#141e18"
+                },
+                "RangoonGreen": {
+                    "type": "SOLID",
+                    "value": "#1a1a14"
+                },
+                "Roti": {
+                    "type": "SOLID",
+                    "value": "#c9a84c"
+                },
+                "Roti30%": {
+                    "type": "SOLID",
+                    "value": "#c9a84c"
+                },
+                "Roti40%": {
+                    "type": "SOLID",
+                    "value": "#c9a84c"
+                },
+                "Roti5%": {
+                    "type": "SOLID",
+                    "value": "#c9a84c"
+                },
+                "RoyalBlue": {
+                    "type": "SOLID",
+                    "value": "#4f44e1"
+                },
+                "Shark": {
+                    "type": "SOLID",
+                    "value": "#191a1f"
+                },
+                "ShuttleGray": {
+                    "type": "SOLID",
+                    "value": "#5f6368"
+                },
+                "TallPoppy": {
+                    "type": "SOLID",
+                    "value": "#c0392b"
+                },
+                "TallPoppy 10%": {
+                    "type": "SOLID",
+                    "value": "#c0392b"
+                },
+                "TallPoppy 20%": {
+                    "type": "SOLID",
+                    "value": "#c0392b"
+                },
+                "Thunder": {
+                    "type": "SOLID",
+                    "value": "#1a141a"
+                },
+                "White": {
+                    "type": "SOLID",
+                    "value": "#ffffff"
+                },
+                "WhiteCod Gray": {
+                    "type": "SOLID",
+                    "value": "#ffffff"
+                },
+                "Woodsmoke": {
+                    "type": "SOLID",
+                    "value": "#14181a"
+                },
+                "Woodsmoke20%": {
+                    "type": "SOLID",
+                    "value": "#161718"
+                },
+                "Zeus": {
+                    "type": "SOLID",
+                    "value": "#1e1a14"
+                },
+                "Zorba": {
+                    "type": "SOLID",
+                    "value": "#a09a8f"
+                }
+            }
+        },
+        "typography": {
+            "stitch.withgoogle.com": {
+                "HostGrotesk": {
+                    "fontName": {
+                        "value": "Host Grotesk-Regular"
+                    },
+                    "size": {
+                        "value": 18
+                    },
+                    "transform": {
+                        "value": "none"
+                    },
+                    "decoration": {
+                        "value": "none"
+                    },
+                    "letterSpacing": {
+                        "value": 0,
+                        "unit": "PERCENT"
+                    },
+                    "lineHeight": {
+                        "value": "29.25",
+                        "unit": "PIXELS"
+                    }
+                },
+                "Semantic": {
+                    "fontName": {
+                        "value": "Host Grotesk-Regular"
+                    },
+                    "size": {
+                        "value": 14
+                    },
+                    "transform": {
+                        "value": "none"
+                    },
+                    "decoration": {
+                        "value": "none"
+                    },
+                    "letterSpacing": {
+                        "value": 0,
+                        "unit": "PERCENT"
+                    },
+                    "lineHeight": {
+                        "value": "20",
+                        "unit": "PIXELS"
+                    }
+                },
+                "CormorantGaramond": {
+                    "fontName": {
+                        "value": "Cormorant Garamond-Light Italic"
+                    },
+                    "size": {
+                        "value": 24
+                    },
+                    "transform": {
+                        "value": "none"
+                    },
+                    "decoration": {
+                        "value": "none"
+                    },
+                    "letterSpacing": {
+                        "value": -0.6000000238418579,
+                        "unit": "PIXELS"
+                    },
+                    "lineHeight": {
+                        "value": "36",
+                        "unit": "PIXELS"
+                    }
+                },
+                "Inter": {
+                    "fontName": {
+                        "value": "Inter-Semi Bold"
+                    },
+                    "size": {
+                        "value": 10
+                    },
+                    "transform": {
+                        "value": "none"
+                    },
+                    "decoration": {
+                        "value": "none"
+                    },
+                    "letterSpacing": {
+                        "value": 0.20000000298023224,
+                        "unit": "PIXELS"
+                    },
+                    "lineHeight": {
+                        "value": "15",
+                        "unit": "PIXELS"
+                    }
+                }
+            },
+            "Inter": {
+                "Regular": {
+                    "fontName": {
+                        "value": "Inter-Regular"
+                    },
+                    "size": {
+                        "value": 12.399999618530273
+                    },
+                    "transform": {
+                        "value": "none"
+                    },
+                    "decoration": {
+                        "value": "none"
+                    },
+                    "letterSpacing": {
+                        "value": 0,
+                        "unit": "PERCENT"
+                    },
+                    "lineHeight": {
+                        "value": "-",
+                        "unit": "AUTO"
+                    }
+                }
+            },
+            "HostGrotesk": {
+                "Medium": {
+                    "fontName": {
+                        "value": "Host Grotesk-Medium"
+                    },
+                    "size": {
+                        "value": 11
+                    },
+                    "transform": {
+                        "value": "none"
+                    },
+                    "decoration": {
+                        "value": "none"
+                    },
+                    "letterSpacing": {
+                        "value": 0.330000102519989,
+                        "unit": "PIXELS"
+                    },
+                    "lineHeight": {
+                        "value": "-",
+                        "unit": "AUTO"
+                    }
+                },
+                "Medium upper": {
+                    "fontName": {
+                        "value": "Host Grotesk-Medium"
+                    },
+                    "size": {
+                        "value": 11
+                    },
+                    "transform": {
+                        "value": "uppercase"
+                    },
+                    "decoration": {
+                        "value": "none"
+                    },
+                    "letterSpacing": {
+                        "value": 1.100000023841858,
+                        "unit": "PIXELS"
+                    },
+                    "lineHeight": {
+                        "value": "-",
+                        "unit": "AUTO"
+                    }
+                },
+                "Regular": {
+                    "fontName": {
+                        "value": "Host Grotesk-Regular"
+                    },
+                    "size": {
+                        "value": 16
+                    },
+                    "transform": {
+                        "value": "none"
+                    },
+                    "decoration": {
+                        "value": "none"
+                    },
+                    "letterSpacing": {
+                        "value": 0,
+                        "unit": "PERCENT"
+                    },
+                    "lineHeight": {
+                        "value": "27.200000762939453",
+                        "unit": "PIXELS"
+                    }
+                },
+                "SemiBold": {
+                    "fontName": {
+                        "value": "Host Grotesk-SemiBold"
+                    },
+                    "size": {
+                        "value": 13
+                    },
+                    "transform": {
+                        "value": "none"
+                    },
+                    "decoration": {
+                        "value": "none"
+                    },
+                    "letterSpacing": {
+                        "value": 0.25999999046325684,
+                        "unit": "PIXELS"
+                    },
+                    "lineHeight": {
+                        "value": "-",
+                        "unit": "AUTO"
+                    }
+                },
+                "SemiBold upper": {
+                    "fontName": {
+                        "value": "Host Grotesk-SemiBold"
+                    },
+                    "size": {
+                        "value": 10
+                    },
+                    "transform": {
+                        "value": "uppercase"
+                    },
+                    "decoration": {
+                        "value": "none"
+                    },
+                    "letterSpacing": {
+                        "value": 0.7000002264976501,
+                        "unit": "PIXELS"
+                    },
+                    "lineHeight": {
+                        "value": "-",
+                        "unit": "AUTO"
+                    }
+                }
+            },
+            "Semantic": {
+                "Heading1": {
+                    "fontName": {
+                        "value": "Cormorant Garamond-Light Italic"
+                    },
+                    "size": {
+                        "value": 68
+                    },
+                    "transform": {
+                        "value": "none"
+                    },
+                    "decoration": {
+                        "value": "none"
+                    },
+                    "letterSpacing": {
+                        "value": -2.0399999618530273,
+                        "unit": "PIXELS"
+                    },
+                    "lineHeight": {
+                        "value": "66.63999938964844",
+                        "unit": "PIXELS"
+                    }
+                }
+            },
+            "CormorantGaramond": {
+                "Light Italic": {
+                    "fontName": {
+                        "value": "Cormorant Garamond-Light Italic"
+                    },
+                    "size": {
+                        "value": 18
+                    },
+                    "transform": {
+                        "value": "none"
+                    },
+                    "decoration": {
+                        "value": "none"
+                    },
+                    "letterSpacing": {
+                        "value": 0,
+                        "unit": "PERCENT"
+                    },
+                    "lineHeight": {
+                        "value": "-",
+                        "unit": "AUTO"
+                    }
+                },
+                "Regular": {
+                    "fontName": {
+                        "value": "Cormorant Garamond-Regular"
+                    },
+                    "size": {
+                        "value": 16
+                    },
+                    "transform": {
+                        "value": "none"
+                    },
+                    "decoration": {
+                        "value": "none"
+                    },
+                    "letterSpacing": {
+                        "value": -0.1600000560283661,
+                        "unit": "PIXELS"
+                    },
+                    "lineHeight": {
+                        "value": "19.52000617980957",
+                        "unit": "PIXELS"
+                    }
+                },
+                "Light": {
+                    "fontName": {
+                        "value": "Cormorant Garamond-Light"
+                    },
+                    "size": {
+                        "value": 48
+                    },
+                    "transform": {
+                        "value": "none"
+                    },
+                    "decoration": {
+                        "value": "none"
+                    },
+                    "letterSpacing": {
+                        "value": -1.2000000476837158,
+                        "unit": "PIXELS"
+                    },
+                    "lineHeight": {
+                        "value": "48",
+                        "unit": "PIXELS"
+                    }
+                }
+            }
+        },
+        "effect": {
+            "preferredshadow": {
+                "type": {
+                    "value": "DROP_SHADOW"
+                },
+                "radius": {
+                    "value": 8.100000381469727
+                },
+                "color": {
+                    "value": "#f8f8f826"
+                },
+                "offset-x": {
+                    "value": 4
+                },
+                "offset-y": {
+                    "value": 4
+                }
+            }
+        }
+    }
+}
