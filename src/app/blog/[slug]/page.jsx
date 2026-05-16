@@ -53,15 +53,18 @@ export default async function ArticlePage({ params }) {
       <article className="container">
         {/* Hero Section */}
         <header className={styles.hero}>
-          <div className={styles.heroLeft}>
+          {/* First Section: Text comes first */}
+          <div className={styles.heroTopSection}>
             <p className={styles.metaTop}>
               <span className={styles.category}>{article.category}</span>
               <span className={styles.dot}>•</span>
               <span className={styles.readTime}>{article.readTime}</span>
             </p>
-            <h1 className={styles.title}>{article.title}</h1>
-            
-            {/* The pastel block from design */}
+            <h2 className={styles.heroExcerpt}>{article.excerpt}</h2>
+          </div>
+
+          {/* Second Section: Image + Title + Details */}
+          <div className={styles.heroBottomSection}>
             <div 
               className={styles.heroImagePlaceholder}
               style={{ backgroundColor: bgColor }}
@@ -70,29 +73,29 @@ export default async function ArticlePage({ params }) {
                 <img src={article.coverImage} alt={article.title} className={styles.heroImage} />
               )}
             </div>
-          </div>
-          
-          <div className={styles.heroRight}>
-            <h2 className={styles.subtitle}>{article.excerpt}</h2>
             
-            <div className={styles.metaDataGrid}>
-              <div className={styles.metaItem}>
-                <span className={styles.metaLabel}>DATE</span>
-                <span className={styles.metaValue}>{article.formattedDate}</span>
+            <div className={styles.heroDetails}>
+              <h1 className={styles.title}>{article.title}</h1>
+              
+              <div className={styles.metaDataGrid}>
+                <div className={styles.metaItem}>
+                  <span className={styles.metaLabel}>DATE</span>
+                  <span className={styles.metaValue}>{article.formattedDate}</span>
+                </div>
+                <div className={styles.metaItem}>
+                  <span className={styles.metaLabel}>VIEWS</span>
+                  <span className={styles.metaValue}>1,240 reads</span>
+                </div>
+                <div className={styles.metaItem}>
+                  <span className={styles.metaLabel}>LENGTH</span>
+                  <span className={styles.metaValue}>{article.readTime}</span>
+                </div>
               </div>
-              <div className={styles.metaItem}>
-                <span className={styles.metaLabel}>VIEWS</span>
-                <span className={styles.metaValue}>1,240 reads</span>
-              </div>
-              <div className={styles.metaItem}>
-                <span className={styles.metaLabel}>LENGTH</span>
-                <span className={styles.metaValue}>{article.readTime}</span>
-              </div>
-            </div>
 
-            <div className={styles.author}>
-              <div className={styles.authorAvatar}>C</div>
-              <span className={styles.authorName}>Written by Comfort B.</span>
+              <div className={styles.author}>
+                <div className={styles.authorAvatar}>C</div>
+                <span className={styles.authorName}>Written by Comfort B.</span>
+              </div>
             </div>
           </div>
         </header>
