@@ -72,8 +72,11 @@
 .articleBody .video-container {
   position: relative;
   width: 100%;
+  max-width: 100%;
   padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
   margin: 2.5rem 0;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
 .articleBody .video-container iframe {
