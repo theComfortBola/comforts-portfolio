@@ -1,0 +1,41 @@
+.page {
+  padding-bottom: 2rem;
+}
+
+.hero {
+  padding: 4rem 0 6rem;
+}
+
+.heroContent {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.breadcrumb {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--color-text-tertiary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dot {
+  color: var(--color-accent-red);
+  font-size: 1.5rem;
+  line-height: 0;
+}
+
+.accentWord {
+  color: var(--color-accent-red);
+  font-size: 1.2em; /* Scripts usually need to be a bit larger to match x-height */
+  margin-right: 0.1em;
+}
+
+.heroSubtext {
+  color: var(--color-text-secondary);
+  max-width: 85%;
+}

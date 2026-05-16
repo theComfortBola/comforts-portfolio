@@ -1,0 +1,120 @@
+.contactSection {
+  padding: 4rem 0;
+  background-color: var(--color-bg-primary);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 800px;
+  margin: 0; /* Align left per design */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label {
+  font-size: 0.75rem;
+  color: var(--color-text-tertiary);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.heading {
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  line-height: 1.1;
+  color: var(--color-text-primary);
+}
+
+.heading span {
+  font-size: 1.2em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formRow {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 600px) {
+  .formRow {
+    flex-direction: row;
+  }
+  .formRow > * {
+    flex: 1;
+  }
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.inputLabel {
+  font-size: 0.625rem;
+  color: var(--color-text-tertiary);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.input, .textarea {
+  background-color: transparent;
+  border: 1px solid var(--color-preferredstroke);
+  color: var(--color-text-primary);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.875rem;
+  transition: border-color 0.2s ease;
+}
+
+.input:focus, .textarea:focus {
+  outline: none;
+  border-color: var(--color-text-secondary);
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.button {
+  background-color: #111;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  width: fit-content;
+  transition: opacity 0.2s ease;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.successMessage {
+  color: var(--color-jewel);
+  font-size: 0.875rem;
+}
+
+.errorMessage {
+  color: var(--color-accent-red);
+  font-size: 0.875rem;
+}

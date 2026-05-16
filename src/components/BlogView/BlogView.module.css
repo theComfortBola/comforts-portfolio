@@ -1,0 +1,98 @@
+.blogView {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.tabsContainer {
+  border-bottom: 1px solid var(--color-preferredstroke);
+  margin-bottom: 1rem;
+}
+
+.tabsScroll {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  padding-bottom: 1px; /* To prevent cutting off the active border */
+}
+
+.tabsScroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+.tab {
+  background: none;
+  border: none;
+  padding: 0 0 1rem 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+  position: relative;
+  transition: color 0.2s ease;
+  font-family: var(--font-bricolage), sans-serif;
+}
+
+.tab:hover {
+  color: var(--color-text-secondary);
+}
+
+.activeTab {
+  color: var(--color-text-primary);
+}
+
+.activeTab::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-text-primary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}
+
+.emptyState {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 4rem 0;
+  color: var(--color-text-tertiary);
+  font-size: 1.125rem;
+}
+
+.loadMoreContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.loadMoreBtn {
+  background: none;
+  border: 1px solid var(--color-preferredstroke);
+  border-radius: 999px;
+  padding: 0.75rem 2rem;
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  transition: all 0.2s ease;
+}
+
+.loadMoreBtn:hover {
+  border-color: var(--color-text-primary);
+  color: var(--color-text-primary);
+}

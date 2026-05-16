@@ -1,0 +1,113 @@
+:root {
+  /* Colors */
+  --color-black: #000000;
+  --color-chablis: #f0fff4;
+  --color-dovegray: #666666;
+  --color-emperor: #555555;
+  --color-funblue: #1a4db5;
+  --color-gray: #888888;
+  --color-hintofgreen: #f0fff4;
+  --color-jewel: #176a32;
+  --color-magnolia: #f0fff4;
+  --color-mineshaft: #333333;
+  --color-purpleheart: #6b35b5;
+  --color-rosewhite: #fff5f5;
+  --color-roseofsharon: #b85c00;
+  --color-satinlinen: #e8e4dc;
+  --color-serenade: #e8f0ff;
+  --color-silver: #cccccc;
+  --color-silverchalice: #aaaaaa;
+  --color-springwood: #f5f2ec;
+  --color-westar: #e0ddd6;
+  --color-zircon: #f0fff4;
+  --color-zumthor: #e8f0ff;
+  --color-navcolor: #f5f2ec;
+  --color-preferredstroke: #f8f8f8;
+  
+  /* Backgrounds */
+  --color-bg-primary: #ffffff;
+  --color-bg-alt: #14141e; /* Cinder from tokens, or MineShaft */
+  --color-bg-footer: #f5f2ec;
+  --color-bg-newsletter: #1c1c1c; /* Almost black */
+  
+  /* Text */
+  --color-text-primary: #191a1f; /* Shark */
+  --color-text-secondary: #5f6368; /* ShuttleGray */
+  --color-text-tertiary: #a09a8f; /* Zorba */
+  --color-text-inverse: #ffffff;
+  
+  /* Accents */
+  --color-accent-red: #c0392b; /* TallPoppy */
+  --color-accent-gold: #c9a84c; /* Roti */
+
+  /* Shadows */
+  --shadow-preferred: 4px 4px 8.1px #f8f8f826;
+  
+  /* Layout */
+  --max-width: 1200px;
+  --spacing-base: 1rem;
+}
+
+/* Reset and Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-inter), sans-serif;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-bricolage), sans-serif;
+  font-weight: 400; /* Adjust depending on font weight loaded */
+  color: var(--color-text-primary);
+}
+
+.font-script {
+  font-family: var(--font-condiment), cursive;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Utilities */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Typography Classes */
+.text-hero {
+  font-size: clamp(3rem, 5vw, 4.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.text-title {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  line-height: 1.2;
+}
+
+.text-body {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.text-small {
+  font-size: 0.875rem;
+}
