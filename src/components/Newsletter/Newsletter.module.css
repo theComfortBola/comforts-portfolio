@@ -86,3 +86,35 @@
 .button:hover {
   opacity: 0.9;
 }
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  gap: 0.5rem;
+}
+
+.inputError {
+  border-color: var(--color-accent-red);
+  animation: wiggle 0.4s ease-in-out;
+}
+
+.errorMessage {
+  color: var(--color-accent-red);
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.successMessage {
+  color: #4ade80; /* A pleasant green for the dark theme */
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+}
