@@ -50,6 +50,22 @@ export default async function ArticlePage({ params }) {
 
   return (
     <div className={styles.page}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: article.title,
+            image: article.coverImage ? [article.coverImage] : [],
+            datePublished: article.date,
+            author: [{
+              "@type": "Person",
+              "name": "Comfort Bolakale",
+            }],
+          }),
+        }}
+      />
       <article className="container">
         {/* Hero Section */}
         <header className={styles.hero}>
